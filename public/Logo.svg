@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="500" height="150">
+  <!-- Expense text with solid dark color -->
+  <text x="1" y="100" font-family="'Georgia', serif" font-size="60" fill="#011f4b" font-weight="bold">
+    Expense
+  </text>
+  
+  <!-- Mate text with solid dark color (final adjustment to prevent overlap) -->
+  <text x="260" y="100" font-family="'Georgia', serif" font-size="60" fill="#333333" font-weight="bold">
+    Mate
+  </text>
+</svg>
+
+
