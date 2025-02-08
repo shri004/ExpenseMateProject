@@ -43,10 +43,15 @@ const HeroSection  = () => {
                 Get Started</Button>
               </Link>
 
-              <Link href="https://www.youtube.com/watch?v=egS6fnZAdzk&t=4540s">
-             <Button size="lg"  variant='outline' className="px-8"> 
-                Watch Demo</Button>
-              </Link>
+              <Button 
+  size="lg"  
+  variant="outline" 
+  className="px-8" 
+  onClick={() => window.open("\demo.mp4", "_blank")}>
+  Watch Demo
+</Button>
+
+             
           </div>  
           <div className="hero-image-wrapper"> 
             <div ref={imageRef} className="hero-image">
